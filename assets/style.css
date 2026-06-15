@@ -1,39 +1,86 @@
-/* style.css */
-/* HERO SECTION IMAGE */
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f5f7fb;
+  color: #0b1b2b;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background-color: #0b1b2b;
+  padding: 14px 20px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.logo img {
+  height: 45px;
+}
+
+nav a {
+  color: #ffffff;
+  margin-left: 18px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #f5b400;
+}
+
+/* HERO */
 .hero {
-  background-image: url("/assets/1.png");
+  background-color: #0b1b2b;
+  color: #ffffff;
+  padding: 60px 20px;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 30px;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.hero-text h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 15px;
+  max-width: 420px;
+}
+
+.hero-image {
+  height: 260px;
+  border-radius: 10px;
   background-size: cover;
   background-position: center;
-  height: 420px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
 }
 
-/* SECTION IMAGES */
-.image-home-main {
-  background-image: url("/assets/2.png");
+/* PAGE LAYOUT */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
 }
 
-.image-about {
-  background-image: url("/assets/3.png");
-}
-
-.image-services {
-  background-image: url("/assets/4.png");
-}
-
-.image-quality {
-  background-image: url("/assets/2.png"); /* reuse or change as needed */
-}
-
-.image-contact {
-  background-image: url("/assets/3.png"); /* reuse or change as needed */
-}
-
-/* LOGO IMAGE */
-.logo img {
-  height: 48px;
-}
+.grid-2 {
+  display: grid;
+  grid-template

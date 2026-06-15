@@ -1,1 +1,2 @@
-content_type: text/css
+mime_types:
+  css: text/css

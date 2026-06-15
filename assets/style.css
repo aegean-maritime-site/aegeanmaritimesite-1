@@ -83,4 +83,61 @@ nav a:hover {
 
 .grid-2 {
   display: grid;
-  grid-template
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  align-items: center;
+}
+
+.image-block {
+  height: 260px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/* IMAGES */
+.image-home-main {
+  background-image: url("assets/1.png");
+}
+
+.image-about {
+  background-image: url("assets/2.png");
+}
+
+.image-services {
+  background-image: url("assets/3.png");
+}
+
+.image-quality {
+  background-image: url("assets/4.png");
+}
+
+.image-contact {
+  background-image: url("assets/2.png");
+}
+
+/* FOOTER */
+footer {
+  background-color: #0b1b2b;
+  color: #c7d2e3;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-inner,
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    margin: 6px 10px;
+  }
+}

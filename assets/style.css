@@ -1,6 +1,6 @@
 /* HERO SECTION IMAGE */
 .hero {
-  background-image: url("assets/images/1.png");
+  background-image: url("assets/1.png");
   background-size: cover;
   background-position: center;
   height: 420px;
@@ -13,23 +13,23 @@
 
 /* SECTION IMAGES */
 .image-home-main {
-  background-image: url("assets/images/2.png");
+  background-image: url("assets/2.png");
 }
 
 .image-about {
-  background-image: url("assets/images/3.png");
+  background-image: url("assets/3.png");
 }
 
 .image-services {
-  background-image: url("assets/images/4.png");
+  background-image: url("assets/4.png");
 }
 
 .image-quality {
-  background-image: url("assets/images/2.png"); /* reuse or change as needed */
+  background-image: url("assets/2.png"); /* reuse or change as needed */
 }
 
 .image-contact {
-  background-image: url("assets/images/3.png"); /* reuse or change as needed */
+  background-image: url("assets/3.png"); /* reuse or change as needed */
 }
 
 /* LOGO IMAGE */

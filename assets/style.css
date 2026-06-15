@@ -95,27 +95,6 @@ nav a:hover {
   border-radius: 10px;
 }
 
-/* IMAGES */
-.image-home-main {
-  background-image: url("/assets/2.png");
-}
-
-.image-about {
-  background-image: url("/assets/4.png");
-}
-
-.image-services {
-  background-image: url("/assets/6.png");
-}
-
-.image-quality {
-  background-image: url("/assets/8.png");
-}
-
-.image-contact {
-  background-image: url("/assets/10.png");
-}
-
 /* HERO IMAGES */
 .hero-home {
   background-image: url("/assets/1.png");
@@ -136,6 +115,28 @@ nav a:hover {
 .hero-contact {
   background-image: url("/assets/9.png");
 }
+
+/* SECTION IMAGES */
+.image-home-main {
+  background-image: url("/assets/2.png");
+}
+
+.image-about {
+  background-image: url("/assets/4.png");
+}
+
+.image-services {
+  background-image: url("/assets/6.png");
+}
+
+.image-quality {
+  background-image: url("/assets/8.png");
+}
+
+.image-contact {
+  background-image: url("/assets/10.png");
+}
+
 
 /* FOOTER */
 footer {

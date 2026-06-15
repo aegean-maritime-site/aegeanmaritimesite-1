@@ -97,23 +97,23 @@ nav a:hover {
 
 /* IMAGES */
 .image-home-main {
-  background-image: url("assets/1.png");
+  background-image: url("/assets/1.png");
 }
 
 .image-about {
-  background-image: url("assets/2.png");
+  background-image: url("/assets/2.png");
 }
 
 .image-services {
-  background-image: url("assets/3.png");
+  background-image: url("/assets/3.png");
 }
 
 .image-quality {
-  background-image: url("assets/4.png");
+  background-image: url("/assets/4.png");
 }
 
 .image-contact {
-  background-image: url("assets/2.png");
+  background-image: url("/assets/2.png");
 }
 
 /* FOOTER */
